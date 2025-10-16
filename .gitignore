@@ -1,4 +1,8 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -21,9 +25,84 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
 
 ### VS Code ###
 .vscode/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+### General ###
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### OS generated files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Logs ###
+logs/
+*.log
+
+### Temp files ###
+*.tmp
+*.temp
+
+### Build outputs ###
+build/
+dist/
+
+### Package Files ###
+*.jar
+*.war
+*.ear
+
+### IDE ###
+*.swp
+*.swo
+*~
+.idea
+.vscode
+*.eml
+
+### System ###
+*.dll
+*.so
+*.dylib
+
+### Documentation ###
+*.pdf
+*.doc
+*.docx
