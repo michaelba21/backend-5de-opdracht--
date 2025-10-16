@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Pokémon aanmaken
+        // Pokémon aanmaken - elk met specifiek type en stats
         List<Pokemon> playerPokemons = new ArrayList<>();
         playerPokemons.add(new FirePokemon("Charizard", 50, 1000, 120, 180));
         playerPokemons.add(new WaterPokemon("Blastoise", 50, 1000, 110, 200));
