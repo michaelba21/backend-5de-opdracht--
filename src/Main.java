@@ -14,17 +14,17 @@ public class Main {
         playerPokemons.add(new GrassPokemon("Venusaur", 50, 1000, 115, 190));
         playerPokemons.add(new ElectricPokemon("Pikachu", 50, 1000, 125, 150));
 
-        // Trainer aanmaken
+        // Trainer aanmaken met de Pokémon team
         PokemonTrainer player = new PokemonTrainer("Ash", playerPokemons);
 
-        // Gym leader Pokémon
+        // Gym leader Pokémon - sterker dan player Pokémon
         List<Pokemon> gymPokemons = new ArrayList<>();
         gymPokemons.add(new FirePokemon("Arcanine", 55, 1200, 130, 170));
         gymPokemons.add(new WaterPokemon("Gyarados", 55, 1200, 125, 185));
 
         GymLeader gymLeader = new GymLeader("Brock", gymPokemons, "Rock");
 
-        // Gym implementatie
+        //Gym implementatie starten - hier begint het eigenlijke spel
         PokemonGym gym = new PokemonGymImpl();
         gym.enteredTheGym(player);
 
